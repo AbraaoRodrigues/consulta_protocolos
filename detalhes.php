@@ -55,8 +55,6 @@ $assunto = $assuntoBruto ? iconv('ISO-8859-1', 'utf-8', $assuntoBruto) : '[Sem d
 <p><strong>Assunto:</strong> <?= $assunto ?></p>
 <p><strong>Resumo:</strong><br><?= nl2br(iconv('windows-1252', 'utf-8', $protocolo['PRO_M_RES'])) ?></p>
 
-<hr>
-<p><a href="index.php">← Voltar para a consulta</a></p>
 
 <h2>Tramitações</h2>
 
